@@ -1,0 +1,13 @@
+// variables
+@import "variables";
+
+//
+
+.footer{
+    background: $bg-color2;
+    color:$font-color1;
+    padding: 5px;
+    display: flex;
+  
+    justify-content: end;
+}

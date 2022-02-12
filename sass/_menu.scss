@@ -1,0 +1,38 @@
+// variables
+@import "variables";
+
+.menu {
+     background: $bg-color2;
+    padding: 5px;
+
+    nav {
+
+        ul {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                display: inline-block;
+
+                button {
+                    background-color: rgb(149, 129, 155);
+                    border: $border1;
+                    padding: 5px;
+
+                    &:hover {
+                        background-color: antiquewhite;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+
+
+                }
+
+            }
+        }
+    }
+}

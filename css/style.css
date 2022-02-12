@@ -1,0 +1,61 @@
+/* general style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0; }
+
+body {
+  background: url(../images/bg.jpg);
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(5, 7, 12, 0.5));
+  color: white; }
+  .header h1 a {
+    text-decoration: none;
+    color: white; }
+
+.menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+  padding: 5px; }
+  .menu nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .menu nav ul li {
+      display: inline-block; }
+      .menu nav ul li button {
+        background-color: #95819b;
+        border: solid black 1px;
+        padding: 5px; }
+        .menu nav ul li button:hover {
+          background-color: antiquewhite; }
+      .menu nav ul li a {
+        text-decoration: none; }
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+  height: 100vh;
+  display: flex;
+  align-items: stretch; }
+  .main main section h2 {
+    font-family: "Bebas Neue", cursive;
+    color: white; }
+  .main main section p {
+    color: #d6cbcb;
+    font-family: "Playfair Display", serif;
+    text-align: center; }
+
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: end; }

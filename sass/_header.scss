@@ -1,0 +1,24 @@
+/* HEADER */
+
+// variable //
+@import "variables";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $bg-color1;
+    color: $font-color1;
+
+    h1 {
+        a {
+            text-decoration: none;
+            color:$font-color1;
+
+        }
+    }
+
+
+
+
+}
